@@ -34,7 +34,8 @@ class Classroom:
     def plot_results(self):
         names = [s.first_name for s in self.students]
         averages = [s.average() for s in self.students]
-        plt.bar(names, averages)
+        plt.bar(names, averages, color="steelblue")
+        plt.ylim(0, 20)
         plt.title("Class Results")
         plt.xlabel("Students")
         plt.ylabel("Average")
