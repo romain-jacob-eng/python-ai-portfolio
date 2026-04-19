@@ -1,56 +1,33 @@
 # Python & AI Portfolio
 
-A collection of Python projects built from scratch, covering data analysis, visualization, and machine learning.
+A collection of Python projects built from scratch, covering object-oriented programming, data analysis, visualization, and machine learning.
 
-**Author:** Romain Jacob | CS & AI Student at ISEP Paris  
+**Author:** Romain Jacob | CS & AI Student at ISEP Paris
 **Contact:** romain.p.jacob@icloud.com
 
 ---
 
 ## Projects
 
-### 1. Grade Analyzer — `grade_analyzer.py`
-Analyzes a dataset of student grades using NumPy and Pandas.
-- Computes mean, median, min, max per subject
-- Identifies students at risk (grade < 10)
-- Exports a summary report
+### 1. Student Grade Analyzer — `grade_analyzer.py`
+Models a classroom using OOP with Student and Classroom classes, calculates student averages and displays results as a bar chart.
 
-**Stack:** Python, NumPy, Pandas
+**Stack:** Python, Matplotlib
 
----
-
-### 2. Weather Analyzer — `weather_analyzer.py`
-Visualizes temperature and rainfall trends from a monthly dataset.
-- Line charts, bar charts, and scatter plots
-- Highlights seasonal patterns
-- Compares multiple cities
+### 2. Weather Data Analyzer — `weather_analyzer.py`
+Analyzes monthly temperature and rainfall data, identifies key statistics and visualizes trends with line and bar charts.
 
 **Stack:** Python, Pandas, Matplotlib
 
----
+### 3. Iris Species Classifier — `iris_classifier.py`
+Trains a K-Nearest Neighbors classifier on the Iris dataset, evaluates accuracy and visualizes species distribution.
 
-### 3. Iris Classifier — `iris_classifier.py`
-Classic ML classification project on the Iris dataset.
-- Data preprocessing and train/test split
-- Logistic Regression and Random Forest models
-- Accuracy evaluation and confusion matrix
-
-**Stack:** Python, Pandas, Scikit-learn
+**Stack:** Python, Pandas, Scikit-learn, Matplotlib
 
 ---
 
 ## Setup
 
 ```bash
-git clone https://github.com/romain-jacob-eng/python-ai-portfolio.git
-cd python-ai-portfolio
-python3 -m venv env
-source env/bin/activate
-pip install numpy pandas matplotlib scikit-learn
+pip install pandas matplotlib scikit-learn
 ```
-
-## Skills Demonstrated
-- Data manipulation with NumPy & Pandas
-- Data visualization with Matplotlib
-- Machine learning with Scikit-learn
-- Clean, documented Python code
